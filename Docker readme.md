@@ -2,4 +2,7 @@
 docker build -t hashcat .
 
 # Docker run command
-docker run --gpus all -it --name hashcat-wpa-sec hashcat
+docker run --gpus all -itd --name hashcat-wpa-sec hashcat
+
+# Docker command aio
+docker build -t hashcat . ; docker run --gpus all -itd --name hashcat-wpa-sec hashcat
