@@ -1,3 +1,4 @@
+# Run in powershell on windows
 # Docker build command
 docker build -t hashcat .
 
